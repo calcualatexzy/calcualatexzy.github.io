@@ -1,0 +1,119 @@
+/* _sass/_components.scss */
+
+/* Navigation */
+nav {
+    background-color: $background-color;
+    padding: $base-spacing;
+  
+    ul {
+      font-family: $heading-font-stack;
+      list-style: none;
+      @include clearfix;
+  
+      li {
+        float: left;
+        margin-right: $base-spacing;
+  
+        a {
+          color: $header-color;
+          font-weight: bold;
+  
+          &:hover {
+            color: lighten($header-color, 20%);
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: $base-spacing / 2 $base-spacing;
+    background-color: $button-color;
+    color: #fff;
+    border-radius: 4px;
+    @include transition(background-color 0.3s ease);
+  
+    &:hover {
+      background-color: darken($button-color, 10%);
+    }
+  }
+  
+  /* Cards */
+  .card {
+    background-color: $card-color;
+    border: 1px solid lighten($text-color, 60%);
+    padding: $base-spacing;
+    margin-bottom: $base-spacing;
+    border-radius: 4px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: $background-color;
+    color: $hero-color;
+    padding: $base-spacing * 2 0;
+
+    .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        text-align: center;
+    }
+    }
+
+    .hero-text {
+    flex: 1;
+    margin-right: $base-spacing;
+
+    @media (max-width: 768px) {
+        margin-right: 0;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: $base-spacing / 2;
+    }
+
+    p {
+        font-size: 1.2em;
+        margin-bottom: $base-spacing;
+    }
+
+    }
+
+    .hero-image {
+        flex: 0 0 300px;
+        max-width: 100%;
+        text-align: center;
+    
+        img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        object-fit: cover;
+        border: 3px solid $text-color;
+        transition: transform 0.3s ease, border-color 0.3s ease;
+    
+        &:hover {
+            transform: scale(1.05);
+            border-color: lighten($text-color, 10%);
+        }
+        }
+    
+        @media (max-width: 768px) {
+            margin-top: $base-spacing;
+    
+            img {
+                width: 200px; 
+                height: 120px; 
+            }
+        }
+    }  
+  }

@@ -1,0 +1,14 @@
+/* _sass/_mixins.scss */
+
+@mixin transition($properties...) {
+    transition: $properties;
+  }
+  
+  @mixin clearfix {
+    &::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+  

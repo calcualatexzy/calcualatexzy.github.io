@@ -1,0 +1,37 @@
+/* _sass/_base.scss */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: $font-stack;
+    font-size: 16px;
+    color: $text-color;
+    background-color: $background-color;
+    line-height: 1.6;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font-stack;
+    color: $text-color;
+    margin-bottom: $base-spacing / 2;
+  }
+  
+  /* Links */
+  a {
+    color: $a-color;
+    text-decoration: none;
+    @include transition(color 0.3s ease);
+  
+    &:hover {
+      color: darken($a-color, 10%);
+      text-decoration: underline;
+    }
+  }
+  

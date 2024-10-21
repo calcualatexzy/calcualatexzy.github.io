@@ -1,0 +1,38 @@
+/* _sass/_layout.scss */
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background-color: $background-color;
+    padding: $base-spacing;
+    color: $header-color;
+  
+    h1 {
+      margin: 0;
+      font-size: 1.8em;
+    }
+  }
+  
+  /* Main Content */
+  main {
+    padding: $base-spacing 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: darken($background-color, 5%);
+    color: $footer-color;
+    text-align: center;
+    padding: $base-spacing / 2;
+  
+    p {
+      margin: 0;
+    }
+  }
+  

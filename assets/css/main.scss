@@ -1,0 +1,15 @@
+---
+---
+
+/* assets/css/main.scss */
+
+/*!
+ * Main SCSS file
+ */
+
+/* Import partials */
+@import "variables";
+@import "mixins";
+@import "base";
+@import "components";
+@import "layout";
