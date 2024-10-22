@@ -1,7 +1,7 @@
 /* _sass/_base.scss */
 
-/* Reset */
-* {
+  /* Reset */
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,10 +10,14 @@
   /* Body Styles */
   body {
     font-family: $font-stack;
-    font-size: 16px;
     color: $text-color;
     background-color: $background-color;
     line-height: 1.6;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin-bottom: $base-spacing;
   }
   
   /* Headings */
@@ -21,6 +25,14 @@
     font-family: $heading-font-stack;
     color: $text-color;
     margin-bottom: $base-spacing / 2;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
   }
   
   /* Links */
@@ -33,5 +45,16 @@
       color: darken($a-color, 10%);
       text-decoration: underline;
     }
+  }
+
+  /* Bold */
+  strong {
+    font-weight: bold;
+    color:$bold-color;
+  }
+
+  /* Italics */
+  em {
+    font-style: italic;
   }
   

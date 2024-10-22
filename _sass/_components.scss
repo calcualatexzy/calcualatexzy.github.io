@@ -47,7 +47,12 @@ nav {
     border: 1px solid lighten($text-color, 60%);
     padding: $base-spacing;
     margin-bottom: $base-spacing;
-    border-radius: 4px;
+    border-radius: 10px;
+    p {
+      font-size: 1.2em;
+      margin-bottom: $base-spacing;
+      height: 10px;
+    }
   }
   
   /* Hero Section */
