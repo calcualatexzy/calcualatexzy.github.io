@@ -1,48 +1,53 @@
 <!-- _includes/publications.md -->
 
-# Publications
+# Publications & Projects {#publications}
 
-- **Publication Title 1***Journal Name*, Year. [Read more](link_to_publication)
-- **Publication Title 2**
-  *Conference Name*, Year. [Read more](link_to_publication)
+## Publications
+<img src="assets/img/yaw_paper.png" alt="Publication Image" width="250" align="left" style="margin-right: 10px;">
 
+### Preserving Relative Localization of FoV-Limited Drone Swarm via Active Mutual Observation 
+*Lianjie Guo\*, Zaitian Gongye\*, **Ziyi Xu**, Yingjian Wang, Xin Zhou, Jinni Zhou, and Fei Gao*  
 
-- **Publication Title 1***Journal Name*, Year. [Read more](link_to_publication)
-- **Publication Title 2**
-  *Conference Name*, Year. [Read more](link_to_publication)
+To balance the demands for FoV-limited swarms by acquiring environment observation as well as mutual observations with a safety guarantee, this paper proposes an active localization correction system, which plans camera orientations via a yaw planner during the flight.  
 
-- **Publication Title 1***Journal Name*, Year. [Read more](link_to_publication)
-- **Publication Title 2**
-  *Conference Name*, Year. [Read more](link_to_publication)
+***IROS**, 2024.* &nbsp; *\* indicates equal contribution* &nbsp; [\[Paper\]](https://arxiv.org/pdf/2407.01292) 
 
-- **Publication Title 1***Journal Name*, Year. [Read more](link_to_publication)
-- **Publication Title 2**
-  *Conference Name*, Year. [Read more](link_to_publication)
+<br/>
 
-- **Publication Title 1***Journal Name*, Year. [Read more](link_to_publication)
-- **Publication Title 2**
-  *Conference Name*, Year. [Read more](link_to_publication)
+<img src="assets/img/fact_paper.png" alt="Publication Image" width="250" align="left" style="margin-right: 10px;">
 
-- **Publication Title 1***Journal Name*, Year. [Read more](link_to_publication)
-- **Publication Title 2**
-  *Conference Name*, Year. [Read more](link_to_publication)
+<br/>
 
-- **Publication Title 1***Journal Name*, Year. [Read more](link_to_publication)
-- **Publication Title 2**
-  *Conference Name*, Year. [Read more](link_to_publication)
+### FACT: Fast and Active Coordinate Initialization for Vision-based Drone Swarms
+*Yuan Li\*, Anke Zhao\*, Yingjian Wang\*, **Ziyi Xu**, Xin Zhou, Jinni Zhou, Chao Xu, and Fei Gao*  
 
-- **Publication Title 1***Journal Name*, Year. [Read more](link_to_publication)
-- **Publication Title 2**
-  *Conference Name*, Year. [Read more](link_to_publication)
+Our paper proposes a complete system to recover a swarm’s initial relative pose on platforms with size, weight, and power (SWaP) constraints.
 
-- **Publication Title 1***Journal Name*, Year. [Read more](link_to_publication)
-- **Publication Title 2**
-  *Conference Name*, Year. [Read more](link_to_publication)
+*arxiv, submitted to **RA-L**.* &nbsp; *\* indicates equal contribution* &nbsp; [\[Paper\]](https://arxiv.org/pdf/2403.13455) 
 
-- **Publication Title 1***Journal Name*, Year. [Read more](link_to_publication)
-- **Publication Title 2**
-  *Conference Name*, Year. [Read more](link_to_publication)
+<br/><br/><br/>
 
-- **Publication Title 1***Journal Name*, Year. [Read more](link_to_publication)
-- **Publication Title 2**
-  *Conference Name*, Year. [Read more](link_to_publication)
+## Projects
+
+<img src="assets\img\srtp.gif" alt="Publication Gif" width="250" align="left" style="margin-right: 10px;">
+
+### Real-time 3D Point Cloud Object Detection Model Based on Auto-wheeled Robot Platform
+
+*National Student Research Training Program (SRTP) - **Ziyi Xu**, Zifei Wu, Zhe Yang*  
+
+We self-designed and developed a real-time object tracking autonomous car from scratch, implemented and compared state-of-the-art 3D-point-cloud-based object detection methods.
+
+<br/><br/>
+
+<img src="assets\img\dronerl.gif" alt="Publication Gif" width="250" align="left" style="margin-right: 10px;">
+
+### Reinforcement Learning for UAV Trajectory Tracking
+
+*Course Project: Innovation and Practice in Robotics - **Ziyi Xu**, Lijie Wang, Liang Wang*  
+
+We generated a high-quality trajectory library and used PPO to train diverse trajectory tracking. The model was deployed in the real world using domain randomization.  
+
+*The simulation and real on the left are not the same traj*ectory.
+
+<br style="clear: both;">
+

@@ -35,3 +35,8 @@ title: "Ziyi Xu"
 <div class="container" markdown="1">
 {% include publications.md %}
 </div>
+<!-- Life Section -->
+
+<div class="container" markdown="1">
+{% include life.md %}
+</div>
