@@ -29,6 +29,20 @@ Our paper proposes a complete system to recover a swarm’s initial relative pos
 
 ## Projects
 
+<img src="assets\img\droneracing.gif" alt="Publication Gif" width="250" align="left" style="margin-right: 10px;">
+
+### ROBOMASTER University AI Challenge(Classic) 2023-2024
+
+***National Champion** - Anke Zhao, **Ziyi Xu**, Weiye Zhang, Zaitian Gongye, William Wu*
+
+*(Advised by Boyu Zhou and Fei Gao)*  
+
+Teamed up and won an autonomous drone racing nation-wise challenge with our self-built drone. 
+
+A full video is [HERE](https://www.bilibili.com/video/BV1gz421m7gY/?spm_id_from=333.999.0.0&vd_source=b56b38cbe23614a7367d2e26cfb55f9d).
+
+<br/><br/>
+
 <img src="assets\img\srtp.gif" alt="Publication Gif" width="250" align="left" style="margin-right: 10px;">
 
 ### Real-time 3D Point Cloud Object Detection Model Based on Auto-wheeled Robot Platform
