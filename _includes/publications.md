@@ -23,7 +23,7 @@ To balance the demands for FoV-limited swarms by acquiring environment observati
 
 Our paper proposes a complete system to recover a swarm’s initial relative pose on platforms with size, weight, and power (SWaP) constraints.
 
-*arxiv, submitted to **RA-L**.* &nbsp; *\* indicates equal contribution* &nbsp; [\[Paper\]](https://arxiv.org/pdf/2403.13455) 
+***RA-L**, 2024.* &nbsp; *\* indicates equal contribution* &nbsp; [\[Paper\]](https://arxiv.org/pdf/2403.13455) 
 
 <br/><br/><br/>
 
