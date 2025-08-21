@@ -3,6 +3,31 @@
 # Publications & Projects {#publications}
 
 ## Publications
+<div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px;">
+  <div style="display: flex; flex-direction: column; gap: 10px;">
+    <img src="assets/img/query.gif" alt="Publication Image" width="250">
+    <img src="assets/img/query2.gif" alt="Publication Image" width="250">
+  </div>
+
+  <div>
+    <h3>Query as You Need: Query-centric Diffusion Policy for Generalizable Robotic Assembly</h3>
+    <p><em><strong>Ziyi Xu</strong>*, Haohong Lin*, Shiqi Liu*, and Ding Zhao</em></p>
+    <p>Developed a two-stage hierarchical framework with a query-centric diffusion policy for zero-shot execution of long-horizon assembly tasks in robot manipulation, using task-relevant queries to guide the policy. </p>
+    <p><em>* indicates equal contribution</em> &nbsp;&nbsp; <a href="{{'/assets/files/Skill_based_Assembly[PREPRINT].pdf' | relative_url}}">[Paper]</a></p>
+  </div>
+</div>
+
+<br/>
+<img src="assets/img/lemonmapping.png" alt="Publication Image" width="250" align="left" style="margin-right: 10px;">
+
+### LEMON-Mapping: Loop-Enhanced Large-Scale Multi-Session Point Cloud Merging and Optimization for Globally Consistent Mapping 
+*Lijie Wang, Xiaoyi Zhong, **Ziyi Xu**, Kaixin Chai, Anke Zhao, Tianyu Zhao, Changjian Jiang, Qianhao Wang, Fei Gao*  
+
+A scalable multi-session point cloud map merging and optimization framework is designed, which integrates two-step PGO with spatial BA. 
+
+***In submission to T-RO**, 2025.* &nbsp;  [\[Paper\]](https://arxiv.org/pdf/2505.10018) 
+
+<br/>
 <img src="assets/img/yaw_paper.png" alt="Publication Image" width="250" align="left" style="margin-right: 10px;">
 
 ### Preserving Relative Localization of FoV-Limited Drone Swarm via Active Mutual Observation 
@@ -28,6 +53,15 @@ Our paper proposes a complete system to recover a swarm’s initial relative pos
 <br/><br/><br/>
 
 ## Projects
+<img src="assets\img\ladder.png" alt="Project Gif" width="250" align="left" style="margin-right: 10px;">
+
+### ◦ Reinforcement Learning for Ladder-Climbing Quadrupeds
+
+*(Advised by Prof. Qiuguo Zhu)*
+
+Designed and integrated a custom hook-based foot mechanism to enhance stability during vertical traversal. Developed a reinforcement learning framework enabling quadruped robots (Lite3) to climb various ladder configurations.
+
+<br/><br/>
 
 <img src="assets\img\droneracing.gif" alt="Publication Gif" width="250" align="left" style="margin-right: 10px;">
 
