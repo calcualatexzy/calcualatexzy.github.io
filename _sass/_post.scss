@@ -1,0 +1,59 @@
+/* _sass/post.scss */
+
+/* Style the title */
+.posts-title {
+    font-size: 2em;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  /* Style the introductory text */
+  .intro-text {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style the list of posts */
+  .posts-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style each individual post item */
+  .post-item {
+    margin: 1.5rem 0;
+    padding: 1.2rem;
+    border: 1px solid #ecf0f1;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for each post item */
+  .post-item:hover {
+    background-color: #ecf0f1;
+  }
+  
+  /* Style the post title link */
+  .post-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  /* Change color of post title on hover */
+  .post-title:hover {
+    color: #2980b9;
+  }
+  
+  /* Style the post date */
+  .post-date {
+    font-size: 0.9em;
+    color: #95a5a6;
+  }
+  
